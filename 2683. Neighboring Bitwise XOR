@@ -1,0 +1,11 @@
+class Solution {
+    public boolean doesValidArrayExist(int[] der) {
+      int o=0;
+       for(int i=0;i<der.length;i++)
+    {
+        o^=der[i];
+    }
+    
+    return o==0;
+    }
+}
